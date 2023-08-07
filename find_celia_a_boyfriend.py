@@ -75,7 +75,7 @@ def lazy_guy():
 def funny_guy():
     print("Celia likes guys that are funny, please tell us your best joke:"), input()
     print("Hmmm I'm not sure if you are funny enough for Celia, but I'll give you her number since you've past most questions!")
-    print("Celia's number: 819-968-1003")
+    print("Celia's number: ###-###-###3")
     print("Good luck with your love-adventure with Celia! She's such a smart/beautiful/nice/lazy person!")
     print("It was fun being your Cupid, if things work out for you with Celia please be my Cupid too!")
 #funny_guy()
