@@ -15,7 +15,7 @@ This is a program that finds out if a boy suits Célia. Her 5 criterias for a bo
 <br/>
 <br/>
 
-- <b>Intelligence Test</b>
+- <b>Intelligence Test:</b>
 
 ```ruby
 def smart_guy():
@@ -55,7 +55,7 @@ def smart_guy():
 
 <br/>
 
-- <b>Height Test</b>
+- <b>Height Test:</b>
 
 ```ruby
 def tall_guy():
@@ -69,7 +69,7 @@ def tall_guy():
 
 <br/>
 
-- <b>Appearance Test</b>
+- <b>Appearance Test:</b>
 
 ```ruby
 def handsome_guy():
@@ -83,7 +83,7 @@ def handsome_guy():
 
 <br/>
 
-- <b>Laziness Test</b>
+- <b>Laziness Test:</b>
 
 ```ruby
 def lazy_guy():
@@ -103,7 +103,7 @@ def lazy_guy():
 
 <br/>
 
-- <b>Humour Test</b>
+- <b>Humour Test:</b>
 
 ```ruby
 def funny_guy():
@@ -116,7 +116,7 @@ def funny_guy():
 
 <br/>
 
-- <b>Finally, find out if the candidate is <b>✨Boyfriend Material✨</b>
+- <b>Finally, find out if the candidate is <b>✨Boyfriend Material✨:</b>
 
 ```ruby
 def boyfriend_material():
