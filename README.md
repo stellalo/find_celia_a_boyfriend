@@ -1,33 +1,23 @@
 <h1>Find_Célia_a_boyfriend</h1>
 
 <h2>👩🏻‍💻 Description</h2>
-This python script is the first self-projects I worked on during my first-ever programming course at <b>McGill University</b> (shout out to COMP202!). It uses 5 criterias my closest friend in Montreal has for boyfriend selection and simple if-else statements to filter out potential matches. In the end, if the candidate passes all statements, he will get Célia's phone number. 
+This python script is the first self-projects I worked on during my first-ever programming course at <b>McGill University</b> (shout out to COMP202!). It uses 5 criterias my closest friend in Montreal has for boyfriend selection and simple if-else statements to filter out potential matches. In the end, if the candidate is <b>✨boyfriend_material()✨</b>, he will get Célia's phone number. 
 <br />
 
-<h2>🪐 Languages and Libraries Used</h2>
+<h2>🪐 Language</h2>
 
-- <b>R Markdown</b> 
+- <b>Python</b>
 
-The following package is required to run the scripts:
+
+<h2>🦠 Program Walk-Through:</h2>
+This is a program that finds out if a boy suits Célia. Her 5 criterias for a boyfriend are funny, smart, taller than her, handsome, and lazy like her (prefers to stay home). 
+
 <br/>
+<br/>
+
+- <b>Intelligence Test</b>
 
 ```ruby
-library(ggplot2)
-```
-
-<h2>🦠 boxplot.Rmd Walk-Through:</h2>
-This script visualizes KEGG gene expression for species that survive/dies at temperature 37 Celcius using boxplots from the ggplot2 library.
-
-<br/>
-<br/>
-
-
-```
-#a program that finds out if a boy suits Celia
-#she likes guys that are funny. smart, taller than her, handome, and lazy like her (prefers to stay home)
-
-
-#test if participany is smart or not
 def smart_guy():
     print("Celia likes guys that are smart.")
     Mcgill_student= input("First question: Are you a McGill student? ")
@@ -61,8 +51,13 @@ def smart_guy():
                 return True
     else:
         print("Currently Celia is only interested in McGill students:( Sorry")
-#smart_guy()
-#test if participany is taller than Celia
+```
+
+<br/>
+
+- <b>Height Test</b>
+
+```ruby
 def tall_guy():
     print("Celia likes guys that are tall.")
     height= float(input("Enter your height in centimeters because Celia is Canadian and I'm too lazy to calculate for you: "))
@@ -70,8 +65,13 @@ def tall_guy():
         print("Sorry but that's shorter than Celia!")
     else:
         print("Great you're tall!")
-#tall_guy()
-#test if participany is handsome
+```
+
+<br/>
+
+- <b>Appearance Test</b>
+
+```ruby
 def handsome_guy():
     print("Celia likes guys that are handsome")
     rate_look= float(input("On a scale of 1 to 10, how handsome would you rate yourself? "))
@@ -79,8 +79,13 @@ def handsome_guy():
         print("Hmm you're probably not the best match!")
     else:
         print("I hope your confidence matches up with your appearance")
-#handsome_guy()
-#test if participant is lazy like her (prefers to stay home)
+```
+
+<br/>
+
+- <b>Laziness Test</b>
+
+```ruby
 def lazy_guy():
     print("Celia likes guys that are lazy")
     lazy=input("What is your favorite activity for a Sunday afternoon? ")
@@ -94,16 +99,26 @@ def lazy_guy():
             print("ohhh what human lazyness does to you!")
     else:
         print("Too bad, Celia is very lazy and likes to stay home everyday")
+```
 
-#lazy_guy()
-#test if participant is funny or not
+<br/>
+
+- <b>Humour Test</b>
+
+```ruby
 def funny_guy():
     print("Celia likes guys that are funny, please tell us your best joke:"), input()
     print("Hmmm I'm not sure if you are funny enough for Celia, but I'll give you her number since you've past most questions!")
-    print("Celia's number: ###-###-1003")
+    print("Celia's number: ###-###-###3")
     print("Good luck with your love-adventure with Celia! She's such a smart/beautiful/nice/lazy person!")
     print("It was fun being your Cupid, if things work out for you with Celia please be my Cupid too!")
-#funny_guy()
+```
+
+<br/>
+
+- <b>Finally, find out if the candidate is <b>✨Boyfriend Material✨</b>
+
+```ruby
 def boyfriend_material():
     participant = input("What is your name? ")
     print("Cool, nice to meet you,", participant)
