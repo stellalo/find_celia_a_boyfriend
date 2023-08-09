@@ -1,7 +1,7 @@
 <h1>Find_Célia_a_boyfriend</h1>
 
 <h2>👩🏻‍💻 Description</h2>
-This python script is the first self-projects I worked on during my first-ever programming course at <b>McGill University</b> (shout out to COMP202!). It uses 5 criterias my closest friend in Montreal has for boyfriend selection and simple if-else statements to filter out potential matches. In the end, if the candidate is <b>✨boyfriend_material()✨</b>, he will get Célia's phone number. 
+This python script is the first self-projects I worked on during my first-ever programming course at <b>McGill University</b> (shout out to COMP202!). It uses 5 criteria my closest friend in Montreal has for boyfriend selection and simple if-else statements to filter out potential matches. In the end, if the candidate is <b>✨boyfriend_material()✨</b>, he will get Célia's phone number. 
 <br />
 
 <h2>🪐 Language</h2>
@@ -10,7 +10,7 @@ This python script is the first self-projects I worked on during my first-ever p
 
 
 <h2>🦠 Program Walk-Through:</h2>
-This is a program that finds out if a boy suits Célia. Her 5 criterias for a boyfriend are funny, smart, taller than her, handsome, and lazy like her (prefers to stay home). 
+This is a program that finds out if a boy suits Célia. Her 5 criteria for a boyfriend are funny, smart, taller than her, handsome, and lazy like her (prefers to stay home). 
 
 <br/>
 <br/>
